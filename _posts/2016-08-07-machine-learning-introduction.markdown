@@ -39,8 +39,8 @@ category: 学习
 \end{cases}
 \end{eqnarray} $$
  * 平方损失函数：$$ L(Y,f(X))=(Y-f(X))^2 $$
- * 绝对损失函数：$$ L(Y,f(X))= \vert {Y-f(X)}  $$
- * 对数损失函数或对数似然损失函数：$$ L(Y,f(X))= -\log P(Y | X) $$
+ * 绝对损失函数：$$ L(Y,f(X))= \vert Y-f(X) \vert $$
+ * 对数损失函数或对数似然损失函数：$$ L(Y,f(X))= -\log P(Y \vert X) $$
 
   损失函数越小，模型就越好。
 * 经验风险：模型 $f(X)$ 关于训练数据集 $ T={(x _1,y _1),(x _2,y _2),\cdots,(x _N,y _N)} $ 的平均损失称为经验风险，记作 $ R _{emp}(f) $： $$ R _{emp}(f)=\frac{1}{N} \sum _{i=1}^N L(y _i,f(x _i)),(x _i,y _i)\in T $$
