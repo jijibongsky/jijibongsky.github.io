@@ -44,4 +44,4 @@ category: 学习
 
   损失函数越小，模型就越好。
 
-* 经验风险：模型 $f(X)$ 关于训练数据集 $ T={(x _1,y _1),(x _2,y _2),\cdots,(x _N,y _N)} $ 的平均损失称为经验风险，记作 $ R _{emp}(f) $： $$ R _{emp}(f)=\frac{1}{N} \sum _{i=1}^N L(y _i,f(x _i)),(x _i,y _i)\in T $$
+* 经验风险：模型 $f(X)$ 关于训练数据集 $ T={(x _1,y _1),(x _2,y _2),\cdots,(x _N,y _N)} $ 的平均损失称为经验风险，记作 $ R _{emp}(f) $ ： $$ R _{emp}(f)=\frac{1}{N} \sum _{i=1}^N L(y _i,f(x _i)),(x _i,y _i)\in T $$
