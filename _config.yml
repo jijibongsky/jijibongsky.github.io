@@ -3,7 +3,7 @@
 permalink: /:categories/:year/:month/:day/:title 
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-highlighter: pygments
+highlighter: rouge
 
 assets: http://simpleyyt.github.io/assets
 baseurl: http://simpleyyt.github.io
@@ -12,8 +12,8 @@ baseurl: http://simpleyyt.github.io
 paginate: 10
 
 # Markdown Processors
-markdown: redcarpet
-redcarpet:
+markdown: kramdown
+kramdown:
   extensions:
     - hard_wrap
     - no_intra_emphasis
