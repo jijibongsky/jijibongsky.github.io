@@ -1,0 +1,10 @@
+<div class="mlinkslist">
+  <p class="asidetitle">常用链接</p>
+    <ul>
+        {% for i in site.mlinks %}
+          <li>
+            <a href="{{ i[1] }}" target="_blank" title="{{ i[0] }}">{{ i[0] }}</a>
+          </li>
+        {% endfor %}
+    </ul>
+</div>
