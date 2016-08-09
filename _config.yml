@@ -5,7 +5,7 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
 
-assets: http://sChenyu91.github.io/assets
+assets: http://Chenyu91.github.io/assets
 baseurl: http://Chenyu91.github.io
 
 # pagination
