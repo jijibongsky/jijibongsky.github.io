@@ -52,6 +52,7 @@ widgets:
 - category
 - tag
 - links
+- mlinks
 - weibo
 - douban
 - rss
@@ -109,6 +110,9 @@ links:
   Yilin Zheng: http://spacebody.cn
   Yidong Fang: http://frank.sustc.pw
   #Jark's Blog: http://wuchong.me
+
+mlinks:
+  baidu: http://www.baidu.com
 
 excerpt_separator: <!--more-->
 
