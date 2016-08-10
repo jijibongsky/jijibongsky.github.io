@@ -113,7 +113,7 @@ links:
 
 ##自己增加的mlinks
 mlinks:
-  baidu: http://www.baidu.com
+  bing: https://cn.bing.com/
 
 excerpt_separator: <!--more-->
 
@@ -129,7 +129,7 @@ jiathis:
 
 #### Analytics
 google_analytics:
-  enable: true
+  enable: false
   id: UA-82196857-1        ## e.g. UA-46321946-2 your google analytics ID.
   site: auto      ## e.g. wuchong.me your google analytics site or set the value as auto.
 ## You MUST upgrade to Universal Analytics first!
@@ -137,9 +137,10 @@ google_analytics:
 baidu_tongji:
   enable: false
   sitecode:  ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
+#google 翻墙才能用，改某度了
 cnzz_tongji:
-  enable: false
-  siteid:    ## e.g. 1253575964 your cnzz tongji site id
+  enable: true
+  siteid: 1260110925   ## e.g. 1253575964 your cnzz tongji site id
 
 #### Miscellaneous
 fancybox: true        ## if you use gallery post or want use fancybox please set the value to true.
