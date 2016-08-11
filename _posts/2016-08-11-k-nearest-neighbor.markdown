@@ -59,7 +59,7 @@ K 近邻算法采用不同测量不同特征值之间的距离方法进行分类
 
 k 近邻模型的特征空间一般是 $n$ 维实向量空间 $R^n$，可采用欧式距离进行度量，或者更一般的 $L_p$ 距离：
 
-$$L_p(x,y)= \left( \sum_i=1^n \vert x_i - x_j \vert ^p\right)^ \frac{1}{p},p \geq 1$$
+$$L_p(x,y)= \left( \sum_i^n \vert x_i - x_j \vert ^p\right)^ \frac{1}{p},p \geq 1$$
 
 
 
