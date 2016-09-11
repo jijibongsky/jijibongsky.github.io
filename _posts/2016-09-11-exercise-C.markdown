@@ -13,7 +13,7 @@ category: 编程
 
 ***
 
-题目描述
+#### 题目描述
 
 兰博和提莫闲聊之后，回归到了他们的正题，约德尔人的未来。
 
@@ -40,7 +40,7 @@ category: 编程
 
 #### 代码
 
-···javascript
+```C
 
 #include <stdio.h>
 #include <string>
@@ -62,7 +62,7 @@ int main()
 	printf("%.2f%%", i / ii*100);
 }
 
-···
+```
 
 ***
 
