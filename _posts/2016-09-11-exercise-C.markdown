@@ -39,9 +39,8 @@ category: 编程
 #### 代码
 
 ```C
-
 #include <stdio.h>
-#include <string>
+#include <string.h>
 int main()
 {
 	char s[1000], ss[1000];
@@ -59,7 +58,6 @@ int main()
 	}
 	printf("%.2f%%", i / ii*100);
 }
-
 ```
 
 ***
@@ -83,7 +81,6 @@ int main()
 #### 代码
 
 ```C
-
 #include<stdio.h>
 int s(int i)
 {
@@ -108,7 +105,6 @@ int main()
 		printf("%d\n", s(m));
 	}
 }
-
 ```
 
 ***
@@ -135,7 +131,7 @@ int main()
 
 对于每组数据，输出一行，即编号为 m 的玩具遇到爸爸第 k 次竖起大拇指时，宝宝实际上数到了的那个整数。
 
-### 代码
+#### 代码
 
 ```C
 
