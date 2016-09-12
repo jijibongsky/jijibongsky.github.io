@@ -252,6 +252,9 @@ int main()
 		p2 = p2->next;
 	}
 	printf("%d", cou);
+	free(p1);
+	free(p2);
+	free(head);
 }
 ```
 
