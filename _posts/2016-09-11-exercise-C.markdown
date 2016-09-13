@@ -167,8 +167,3 @@ int main()
 }
 <<<<<<< HEAD
 ```
-
-
-=======
-'''
->>>>>>> origin/master
