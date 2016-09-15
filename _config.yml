@@ -5,8 +5,8 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
 
-assets: http://chenyu91.github.io/assets
-baseurl: http://chenyu91.github.io
+assets: https://chenyu91.github.io/assets
+baseurl: https://chenyu91.github.io
 
 # pagination
 paginate: 10
@@ -107,8 +107,8 @@ toc:
 
 #### Links
 links:
-  Yilin Zheng: http://spacebody.cn
-  Yidong Fang: http://frank.sustc.pw
+  Yilin Zheng: https://spacebody.cn
+  Yidong Fang: https://frank.sustc.pw
   #Jark's Blog: http://wuchong.me
 
 ##自己增加的mlinks
