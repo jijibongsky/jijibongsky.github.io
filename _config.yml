@@ -114,6 +114,7 @@ links:
 ##自己增加的mlinks
 mlinks:
   bing: https://cn.bing.com/
+  google: https://google.com
 
 excerpt_separator: <!--more-->
 
