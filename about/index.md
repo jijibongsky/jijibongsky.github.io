@@ -6,5 +6,5 @@ title: About me
 
  * **Name:** kangkang
  * **Email:** [1581045885@qq.com](mailto:1581045885@qq.com)
- * **WeiBo:** [rainstart](http://www.weibo.com/u/3180166993)
- * **Github:** [Chenyu91](https://github.com/jijibongsky)
+ * **WeiBo:** [千-年-老-腰](http://www.weibo.com/u/3180166993)
+ * **Github:** [jijibongsky](https://github.com/jijibongsky)
