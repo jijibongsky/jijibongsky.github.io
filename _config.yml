@@ -5,8 +5,8 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 highlighter: rouge
 
-assets: https://chenyu91.github.io/assets
-baseurl: https://chenyu91.github.io
+assets: https://jijibongsky.github.io/assets
+baseurl: https://jijibongsky.github.io
 
 # pagination
 paginate: 10
@@ -91,7 +91,7 @@ author:
   zhihu: gao-huo-yidai      ## e.g. jark  for http://www.zhihu.com/people/jark
   email: chenyu0714@outlook.com      ## e.g. imjark@gmail.com
   twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
-  github: Chenyu91     ## e.g. wuchong for https://github.com/wuchong
+  github: jijibongsky     ## e.g. wuchong for https://github.com/wuchong
   facebook:   ## e.g. imjark for https://facebook.com/imjark
   linkedin:   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
   google_plus: "111011415103154255414"    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
