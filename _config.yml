@@ -8,7 +8,7 @@ highlighter: rouge
 assets: https://jijibongsky.github.io/assets
 baseurl: https://jijibongsky.github.io
 
-# pagination
+# pagination 标记页数
 paginate: 10
 
 # Markdown Processors
@@ -24,7 +24,7 @@ kramdown:
     - with_toc_data
     
 
-title : rainstart
+title : kangkang
 tagline: A blog for myself.
 
 defaults:
@@ -55,7 +55,7 @@ widgets:
 - mlinks  ##自己增加的
 - weibo
 - douban
-- rss
+- rss  
 ## provide seven widgets:category,tag,rss,archive,tagcloud,links,weibo,douban
 ##可以继续增加，需要在下面写出，并在_include/_widget/中做出相应的更改
 
@@ -63,7 +63,7 @@ widgets:
 rss: /atom.xml ## RSS address.
 
 #### Image
-imglogo:
+imglogo:   
   enable: true             ## display image logo true/false.
   src: img/logo.png        ## `.svg` and `.png` are recommended,please put image into the theme folder `/jacman/source/img`.
 favicon: img/favicon.ico   ## size:32px*32px,`.ico` is recommended,please put image into the theme folder `/jacman/source/img`.     
@@ -81,20 +81,20 @@ mathjax: true      #enable mathjax if true
 
 #### Author information
 author:
-  name: chenyu     ## e.g. wuchong Author name
+  name: kangkang     ## e.g. wuchong Author name
   intro_line1:  "Welcome to my blog."    ## your introduction on the bottom of the page
   intro_line2:  "It's a good day."  ## the 2nd line
-  weibo: 1912481117      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
+  weibo: 3180166993      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   #weibo_verifier: 8266a57e  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
-  tsina: 1912481117      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
-  douban: 62234732     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
-  zhihu: gao-huo-yidai      ## e.g. jark  for http://www.zhihu.com/people/jark
-  email: chenyu0714@outlook.com      ## e.g. imjark@gmail.com
+  tsina:       ## e.g. 2176287895  Your weibo ID,It will be used in share button.
+  douban: 146722992     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
+  zhihu: sun-kang-kang-79    ## e.g. jark  for http://www.zhihu.com/people/jark
+  email: mg1521040@smail.nju.edu.cn      ## e.g. imjark@gmail.com
   twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
   github: jijibongsky     ## e.g. wuchong for https://github.com/wuchong
   facebook:   ## e.g. imjark for https://facebook.com/imjark
   linkedin:   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
-  google_plus: "111011415103154255414"    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
+  google_plus:    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!
   stackoverflow:  ## e.g. 3222790 for http://stackoverflow.com/users/3222790/jark
 ## if you set them, the corresponding  share button will show on the footer
 
@@ -107,8 +107,8 @@ toc:
 
 #### Links
 links:
-  Yilin Zheng: https://spacebody.cn
-  Yidong Fang: https://frank.sustc.pw
+  Yilin Zheng: ##https://spacebody.cn
+  Yidong Fang: ##https://frank.sustc.pw
   #Jark's Blog: http://wuchong.me
 
 ##自己增加的mlinks
@@ -131,7 +131,7 @@ jiathis:
 #### Analytics
 google_analytics:
   enable: false
-  id: UA-82196857-1        ## e.g. UA-46321946-2 your google analytics ID.
+  id: ##UA-82196857-1        ## e.g. UA-46321946-2 your google analytics ID.
   site: auto      ## e.g. wuchong.me your google analytics site or set the value as auto.
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
@@ -141,7 +141,7 @@ baidu_tongji:
 #google 翻墙才能用，改某度了
 cnzz_tongji:
   enable: true
-  siteid: 1260110925   ## e.g. 1253575964 your cnzz tongji site id
+  siteid: ##1260110925   ## e.g. 1253575964 your cnzz tongji site id
 
 #### Miscellaneous
 fancybox: true        ## if you use gallery post or want use fancybox please set the value to true.
@@ -151,7 +151,7 @@ totop: true           ## if you want to scroll to top in every post set the valu
 #### Custom Search
 google_cse: 
   enable: true
-  cx: 008433452874289893727%3A92ibbzvplog  ## e.g. 018294693190868310296:abnhpuysycw your Custom Search ID.
+  cx: ##008433452874289893727%3A92ibbzvplog  ## e.g. 018294693190868310296:abnhpuysycw your Custom Search ID.
 ## https://www.google.com/cse/ 
 ## To enable the custom search You must create a "search" folder in '/source' and a "index.md" file
 ## set the 'front-matter' as
